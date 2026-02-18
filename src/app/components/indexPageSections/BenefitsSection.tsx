@@ -2,7 +2,7 @@ export default function BenefitsSection() {
   return (
     <section id="korzysci" className="py-8 md:py-12 relative">
       {/* Background with glass effect and turquoise accents */}
-      <div className="absolute inset-0 bg-linear-to-b from-white to-gray-50">
+      <div className="absolute inset-0 bg-slate-200">
         <div className="absolute inset-0 bg-[var(--glass-turquoise-bg)] opacity-30"></div>
       </div>
 
@@ -125,7 +125,7 @@ export default function BenefitsSection() {
                     </svg>
                   </div>
                   <span className="text-white/95 text-base leading-relaxed pt-0.5">
-                    Tylko <strong className="font-semibold text-white">72 godziny</strong> do rozwiązania
+                    <strong className="font-semibold text-white">Realizacja interesów</strong> w 72 godziny
                   </span>
                 </li>
                 <li className="flex items-start group">
@@ -143,7 +143,7 @@ export default function BenefitsSection() {
                     </svg>
                   </div>
                   <span className="text-white/95 text-base leading-relaxed pt-0.5">
-                    Tylko <strong className="font-semibold text-white">99 PLN</strong>
+                    <strong className="font-semibold text-white">Maksymalizacja wartości</strong> za jedyne 99 PLN
                   </span>
                 </li>
                 <li className="flex items-start group">
@@ -160,7 +160,7 @@ export default function BenefitsSection() {
                       ></path>
                     </svg>
                   </div>
-                  <span className="text-white/95 text-base leading-relaxed pt-0.5">Prosta i zrozumiała procedura</span>
+                  <span className="text-white/95 text-base leading-relaxed pt-0.5"><strong className="font-semibold text-white">Integratywne rozwiązania</strong> proceduralne</span>
                 </li>
                 <li className="flex items-start group">
                   <div className="shrink-0 w-7 h-7 bg-green-400/20 rounded-xl flex items-center justify-center mr-4 group-hover:bg-green-400/30 transition-colors backdrop-blur-sm">

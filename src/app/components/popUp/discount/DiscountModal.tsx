@@ -22,7 +22,7 @@ const PopupModal = forwardRef<PopupModalRef>((_, ref) => {
         setIsOpen(true);
         setHasShown(true);
       }
-    }, 2000);
+    }, 6000);
 
     return () => clearTimeout(timer);
   }, [hasShown]);

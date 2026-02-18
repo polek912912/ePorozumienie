@@ -2,7 +2,7 @@ export default function FeaturesSection() {
   return (
     <section className="py-8 md:py-12 relative">
       {/* Background with glass effect and turquoise accents */}
-      <div className="absolute inset-0 bg-white">
+      <div className="absolute inset-0 bg-slate-200">
         <div className="absolute inset-0 bg-[var(--glass-turquoise-bg)] opacity-20"></div>
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_80%,var(--glass-turquoise-accent),transparent_50%),radial-gradient(circle_at_80%_20%,var(--glass-turquoise-accent),transparent_50%)] opacity-30"></div>
       </div>
@@ -13,8 +13,8 @@ export default function FeaturesSection() {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           {/* Feature 1 */}
-          <div className="group relative backdrop-blur-sm bg-white/70 p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-[var(--glass-turquoise-border)] hover:border-[var(--turquoise)]/30 hover:-translate-y-1 hover:bg-white/80">
-            <div className="absolute top-4 right-4 px-3 py-1 bg-[var(--turquoise)] text-white text-xs font-semibold rounded-full shadow-lg shadow-[var(--turquoise)]/30">Polskie rozwiązanie</div>
+          <div className="group relative bg-white p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-[#0A2463]/20 hover:-translate-y-1">
+            <div className="absolute top-4 right-4 px-3 py-1 bg-red-500 text-white text-xs font-semibold rounded-full shadow-lg shadow-red-500/30">Polskie rozwiązanie</div>
             <div className="w-16 h-16 bg-linear-to-br from-[#0A2463] to-[#051740] rounded-2xl flex items-center justify-center mb-6 shadow-lg shadow-[#0A2463]/30 group-hover:scale-110 group-hover:shadow-[var(--turquoise)]/20 transition-all duration-300 relative overflow-hidden">
               <div className="absolute inset-0 bg-linear-to-br from-[var(--turquoise)]/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               <div className="relative z-10">
@@ -25,8 +25,9 @@ export default function FeaturesSection() {
             </div>
             <h3 className="text-2xl font-bold mb-3 text-gray-900">Dedykowany AI-mediator</h3>
             <p className="text-gray-600 leading-relaxed text-base">
-              Model przeszkolony na tysiącach wyroków i porozumień z bankami, wykorzystujący polski
-              model językowy <strong className="font-semibold text-gray-900">Bielik</strong>.
+              Wykorzystanie dedykowanego modelu językowego przeszkolonego na polskim orzecznictwie i
+              dokumentacji mediacyjnej. System identyfikuje pola porozumienia w oparciu o interesy stron,
+              wykraczając poza sztywne stanowiska procesowe.
             </p>
           </div>
 
@@ -46,8 +47,9 @@ export default function FeaturesSection() {
             </div>
             <h3 className="text-2xl font-bold mb-3 text-gray-900">Generator dokumentów</h3>
             <p className="text-gray-600 leading-relaxed text-base">
-              Automatyczne tworzenie gotowych do podpisu porozumień, pozwów i wniosków o zabezpieczenie
-              z mocą prawną, zgodnie z <strong className="font-semibold text-gray-900">aktualnym stanem prawnym</strong>.
+              Automatyczne tworzenie dokumentacji ugodowej i wniosków do sądu o nadanie klauzuli
+              wykonalności. Każdy dokument jest strukturyzowany zgodnie z aktualnymi wymogami formalno-
+              prawnymi, co gwarantuje jego skuteczność egzekucyjną.
             </p>
           </div>
 
@@ -65,10 +67,10 @@ export default function FeaturesSection() {
               </svg>
               </div>
             </div>
-            <h3 className="text-2xl font-bold mb-3 text-gray-900">Bezpieczeństwo</h3>
+            <h3 className="text-2xl font-bold mb-3 text-gray-900">Szyfrowanie - ISO 27001</h3>
             <p className="text-gray-600 leading-relaxed text-base">
-              Szyfrowanie <strong className="font-semibold text-gray-900">end-to-end</strong>, pełna zgodność z RODO, dane przetwarzane
-              wyłącznie na serwerach w UE. <strong className="font-semibold text-gray-900">Osoby trzecie nigdy nie będą mieć dostępu do danych</strong>.
+              Bezpieczeństwo danych oparte na standardzie AES-256 (end-to-end). Platforma stosuje strukturę
+              uznanego standardu zarządzania systemami bezpieczeństwa informacji.
             </p>
           </div>
 
@@ -87,12 +89,11 @@ export default function FeaturesSection() {
               </div>
             </div>
             <h3 className="text-2xl font-bold mb-3 text-gray-900">
-              Integracja z Profilem Zaufanym
+              Uwierzytelnienie eIDAS 2.0
             </h3>
             <p className="text-gray-600 leading-relaxed text-base">
-              Uwierzytelnianie użytkowników przez <strong className="font-semibold text-gray-900">Profil Zaufany</strong> i{' '}
-              <strong className="font-semibold text-gray-900">ePUAP</strong> i integracja z <strong className="font-semibold text-gray-900">podpisem elektronicznym</strong>{' '}
-              umożliwiającym podpisanie porozumienia bez wychodzenia z domu.
+              Platforma internalizuje kwalifikowany podpis elektroniczne w rozumieniu Rozporządzenia eIDAS
+              2.0, co zapewnia najwyższą moc dowodową zawartej ugody i jej niezaprzeczalność.
             </p>
           </div>
 
@@ -108,11 +109,10 @@ export default function FeaturesSection() {
               </svg>
               </div>
             </div>
-            <h3 className="text-2xl font-bold mb-3 text-gray-900">Integracja z rejestrami</h3>
+            <h3 className="text-2xl font-bold mb-3 text-gray-900">Weryfikacja Podmiotowa</h3>
             <p className="text-gray-600 leading-relaxed text-base">
-              Integracja z rejestrami państwowymi (<strong className="font-semibold text-gray-900">CEIDG</strong>, <strong className="font-semibold text-gray-900">PESEL</strong>)
-              i komercyjnymi bazami danych w celu zdobywania i weryfikacji informacji o drugim
-              podmiocie.
+              Automatyczna integracja z rejestrami publicznymi. System weryfikuje tożsamość stron oraz
+              aktualne umocowanie osób reprezentujących, eliminując ryzyko wad prawnych oświadczeń woli.
             </p>
           </div>
 
@@ -135,10 +135,10 @@ export default function FeaturesSection() {
               </svg>
               </div>
             </div>
-            <h3 className="text-2xl font-bold mb-3 text-gray-900">System płatności</h3>
+            <h3 className="text-2xl font-bold mb-3 text-gray-900">Rozliczenia -Smart Escrow</h3>
             <p className="text-gray-600 leading-relaxed text-base">
-              Bezpieczny system płatności z logiką warunkową - dostęp do dokumentów po opłaceniu
-              przez obie strony z <strong className="font-semibold text-gray-900">automatycznym rozliczeniem</strong>.
+              Zintegrowany mechanizm rozliczeń warunkowych. System zwalnia środki finansowe lub kody
+              dostępu do dokumentów dopiero po
             </p>
           </div>
         </div>

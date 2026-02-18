@@ -3,8 +3,8 @@
 import { useRef } from 'react';
 import PopupModal from './components/popUp/discount/DiscountModal';
 import { PopupModalRef } from '@/lib/types';
-import Navigation from './components/indexPageSections/Navigation';
 import Footer from './components/indexPageSections/Footer';
+import Navigation from './components/indexPageSections/Navigation';
 import HeroSection from './components/indexPageSections/HeroSection';
 import StatsSection from './components/indexPageSections/StatsSection';
 import HowItWorksSection from './components/indexPageSections/HowItWorksSection';
@@ -23,12 +23,13 @@ export default function Home() {
   };
 
   return (
-    <div className="bg-gray-50">
-      <PopupModal ref={popupRef} />
+    <>
       <Navigation />
-      <HeroSection />
-      <StatsSection />
+      <div className="bg-gray-200">
+        <PopupModal ref={popupRef} />
+        <HeroSection />
       <HowItWorksSection />
+      <StatsSection />
       <BenefitsSection />
       <SwissFrancSection />
       <FeaturesSection />
@@ -37,5 +38,6 @@ export default function Home() {
       <CTASection onCTAClick={handleCTAClick} />
       <Footer />
     </div>
+    </>
   );
 }
