@@ -67,7 +67,7 @@ export default function FeaturesSection() {
               </svg>
               </div>
             </div>
-            <h3 className="text-2xl font-bold mb-3 text-gray-900">Szyfrowanie - ISO 27001</h3>
+            <h3 className="text-2xl font-bold mb-3 text-gray-900">Szyfrowanie i ISO 27001</h3>
             <p className="text-gray-600 leading-relaxed text-base">
               Bezpieczeństwo danych oparte na standardzie AES-256 (end-to-end). Platforma stosuje strukturę
               uznanego standardu zarządzania systemami bezpieczeństwa informacji.
