@@ -254,10 +254,6 @@ export interface DocumentViewerProps {
   getDocumentUrl: (path: string) => string;
 }
 
-export interface CTASectionProps {
-  onCTAClick: () => void;
-}
-
 export interface Step1BasicInfoProps {
   formData: AffairFormData;
   updateFormData: (data: Partial<AffairFormData>) => void;

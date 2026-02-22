@@ -9,17 +9,17 @@ export default function StatsSection() {
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 max-w-5xl mx-auto">
-          <div className="group backdrop-blur-sm bg-white/60 p-8 md:p-10 rounded-3xl text-center shadow-lg hover:shadow-2xl transition-all duration-300 border border-[var(--glass-turquoise-border)] hover:border-[var(--turquoise)]/40 hover:-translate-y-1 hover:bg-white/70">
+          <div className="group backdrop-blur-sm bg-white/60 p-8 md:p-10 rounded-3xl text-center shadow-xl hover:shadow-3xl transition-all duration-300 border border-[var(--glass-turquoise-border)] hover:border-[var(--turquoise)]/40 hover:-translate-y-1 hover:bg-white/70">
             <h3 className="text-6xl md:text-7xl font-bold text-[#0A2463] mb-3 tracking-tight drop-shadow-sm">18 mln+</h3>
             <p className="text-gray-700 text-lg leading-relaxed">spraw sądowych rocznie w Polsce</p>
           </div>
-          <div className="group backdrop-blur-sm bg-white/60 p-8 md:p-10 rounded-3xl text-center shadow-lg hover:shadow-2xl transition-all duration-300 border border-[var(--glass-turquoise-border)] hover:border-[var(--turquoise)]/40 hover:-translate-y-1 hover:bg-white/70">
-            <h3 className="text-6xl md:text-7xl font-bold text-[#0A2463] mb-3 tracking-tight drop-shadow-sm">72h</h3>
-            <p className="text-gray-700 text-lg leading-relaxed">zamiast 72 tygodni oczekiwania</p>
+          <div className="group backdrop-blur-sm bg-white/60 p-8 md:p-10 rounded-3xl text-center shadow-xl hover:shadow-3xl transition-all duration-300 border border-[var(--glass-turquoise-border)] hover:border-[var(--turquoise)]/40 hover:-translate-y-1 hover:bg-white/70">
+            <h3 className="text-6xl md:text-7xl font-bold text-[#0A2463] mb-3 tracking-tight drop-shadow-sm">1%</h3>
+            <p className="text-gray-700 text-lg leading-relaxed">spraw trafia na droge mediacji według danych MS i NIK</p>
           </div>
-          <div className="group backdrop-blur-sm bg-white/60 p-8 md:p-10 rounded-3xl text-center shadow-lg hover:shadow-2xl transition-all duration-300 border border-[var(--glass-turquoise-border)] hover:border-[var(--turquoise)]/40 hover:-translate-y-1 hover:bg-white/70">
-            <h3 className="text-6xl md:text-7xl font-bold text-[#0A2463] mb-3 tracking-tight drop-shadow-sm">90 000+</h3>
-            <p className="text-gray-700 text-lg leading-relaxed">nowych pozwów frankowych w 2024</p>
+          <div className="group backdrop-blur-sm bg-white/60 p-8 md:p-10 rounded-3xl text-center shadow-xl hover:shadow-3xl transition-all duration-300 border border-[var(--glass-turquoise-border)] hover:border-[var(--turquoise)]/40 hover:-translate-y-1 hover:bg-white/70">
+            <h3 className="text-6xl md:text-7xl font-bold text-[#0A2463] mb-3 tracking-tight drop-shadow-sm">2,1 mln</h3>
+            <p className="text-gray-700 text-lg leading-relaxed">spraw nadaje się do mediacji w Polsce</p>
           </div>
         </div>
       </div>

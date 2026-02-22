@@ -5,10 +5,10 @@ export default function TeamSection() {
     <section id="zespol" className="py-8 md:py-12 bg-slate-200">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 md:mb-20 text-gray-900 tracking-tight">
-          Founderzy
+          Twórcy
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 max-w-7xl mx-auto">
-          <div className="group bg-white p-6 md:p-8 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 text-center border border-gray-100 hover:-translate-y-1">
+          <div className="group bg-white p-6 md:p-8 rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-300 text-center border border-gray-100 hover:-translate-y-1">
             <div className="w-32 h-32 mx-auto mb-6 overflow-hidden rounded-3xl bg-gray-200 shadow-lg group-hover:scale-105 transition-transform duration-300">
               <Image
                 src="/images/1.jpg"
@@ -25,7 +25,7 @@ export default function TeamSection() {
               Specjalizuje się w obsłudze rynku kryptoaktywów, rynku płatniczego, AML/CFT, ochronie danych osobowych i prawie gospodarczym
             </p>
           </div>
-          <div className="group bg-white p-6 md:p-8 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 text-center border border-gray-100 hover:-translate-y-1">
+          <div className="group bg-white p-6 md:p-8 rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-300 text-center border border-gray-100 hover:-translate-y-1">
             <div className="w-32 h-32 mx-auto mb-6 overflow-hidden rounded-3xl bg-gray-200 shadow-lg group-hover:scale-105 transition-transform duration-300">
               <Image
                 src="/images/2.jpg"
@@ -43,7 +43,7 @@ export default function TeamSection() {
               konsensusu w oparciu o światowe standardy mediacji.
             </p>
           </div>
-          <div className="group bg-white p-6 md:p-8 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 text-center border border-gray-100 hover:-translate-y-1">
+          <div className="group bg-white p-6 md:p-8 rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-300 text-center border border-gray-100 hover:-translate-y-1">
             <div className="w-32 h-32 mx-auto mb-6 overflow-hidden rounded-3xl bg-gray-200 shadow-lg group-hover:scale-105 transition-transform duration-300">
               <Image
                 src="/images/3.jpg"

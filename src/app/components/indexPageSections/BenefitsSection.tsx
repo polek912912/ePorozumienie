@@ -11,7 +11,7 @@ export default function BenefitsSection() {
           Dlaczego <span className="text-[var(--turquoise)] drop-shadow-sm">e-Porozumienie</span>?
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 max-w-5xl mx-auto">
-          <div className="backdrop-blur-md bg-white/80 p-8 md:p-10 rounded-3xl shadow-xl border border-[var(--glass-turquoise-border)] hover:shadow-2xl hover:border-[var(--turquoise)]/30 transition-all duration-300 hover:scale-[1.02] hover:bg-white/90">
+          <div className="backdrop-blur-md bg-white/80 p-8 md:p-10 rounded-3xl shadow-2xl border border-[var(--glass-turquoise-border)] hover:shadow-3xl hover:border-[var(--turquoise)]/30 transition-all duration-300 hover:scale-[1.02] hover:bg-white/90">
             <h3 className="text-2xl md:text-3xl font-bold mb-8 text-gray-900 border-b-2 border-red-200 pb-4">
               Tradycyjny sąd
             </h3>
@@ -31,7 +31,7 @@ export default function BenefitsSection() {
                   </svg>
                 </div>
                 <span className="text-gray-700 text-base leading-relaxed pt-0.5">
-                  <strong className="font-semibold text-gray-900">18-36 miesięcy</strong> oczekiwania
+                  <strong className="font-semibold text-gray-900">18-36 miesięcy</strong> oczekiwania na rozstrzygnięcie
                 </span>
               </li>
               <li className="flex items-start group">
@@ -49,7 +49,7 @@ export default function BenefitsSection() {
                   </svg>
                 </div>
                 <span className="text-gray-700 text-base leading-relaxed pt-0.5">
-                  Koszt <strong className="font-semibold text-gray-900">7.000-14.000 zł</strong>
+                  Średni koszt obsługi prawnej - <strong className="font-semibold text-gray-900">7.000-14.000 zł</strong>
                 </span>
               </li>
               <li className="flex items-start group">
@@ -66,7 +66,7 @@ export default function BenefitsSection() {
                     ></path>
                   </svg>
                 </div>
-                <span className="text-gray-700 text-base leading-relaxed pt-0.5">Stres i skomplikowane formalności</span>
+                <span className="text-gray-700 text-base leading-relaxed pt-0.5">Stres i skomplikowana procedura</span>
               </li>
               <li className="flex items-start group">
                 <div className="shrink-0 w-7 h-7 bg-red-100 rounded-xl flex items-center justify-center mr-4 group-hover:bg-red-200 transition-colors">
@@ -102,10 +102,7 @@ export default function BenefitsSection() {
               </li>
             </ul>
           </div>
-          <div className="bg-linear-to-br from-[#0A2463] to-[#051740] p-8 md:p-10 rounded-3xl shadow-2xl border border-[var(--turquoise)]/20 hover:shadow-3xl hover:border-[var(--turquoise)]/40 transition-all duration-300 relative overflow-hidden backdrop-blur-sm">
-            <div className="absolute inset-0 bg-linear-to-br from-[var(--glass-turquoise-accent)] to-transparent"></div>
-            <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_30%,var(--turquoise),transparent_70%)] opacity-10"></div>
-            <div className="relative z-10">
+          <div className="bg-[#051740] p-8 md:p-10 rounded-3xl shadow-2xl border border-[var(--turquoise)]/20 hover:shadow-3xl hover:border-[var(--turquoise)]/40 transition-all duration-300 relative">
               <h3 className="text-2xl md:text-3xl font-bold mb-8 text-white border-b-2 border-[var(--turquoise)]/40 pb-4">
                 e-Porozumienie
               </h3>
@@ -125,7 +122,7 @@ export default function BenefitsSection() {
                     </svg>
                   </div>
                   <span className="text-white/95 text-base leading-relaxed pt-0.5">
-                    <strong className="font-semibold text-white">Realizacja interesów</strong> w 72 godziny
+                    <strong className="font-semibold text-white">Realizacja interesów</strong> w ciągu tygodnia
                   </span>
                 </li>
                 <li className="flex items-start group">
@@ -143,7 +140,7 @@ export default function BenefitsSection() {
                     </svg>
                   </div>
                   <span className="text-white/95 text-base leading-relaxed pt-0.5">
-                    <strong className="font-semibold text-white">Maksymalizacja wartości</strong> za jedyne 99 PLN
+                    <strong className="font-semibold text-white">99 PLN / sprawa</strong>
                   </span>
                 </li>
                 <li className="flex items-start group">
@@ -160,7 +157,7 @@ export default function BenefitsSection() {
                       ></path>
                     </svg>
                   </div>
-                  <span className="text-white/95 text-base leading-relaxed pt-0.5"><strong className="font-semibold text-white">Integratywne rozwiązania</strong> proceduralne</span>
+                  <span className="text-white/95 text-base leading-relaxed pt-0.5"><strong className="font-semibold text-white">Integratywna procedura iteracji</strong></span>
                 </li>
                 <li className="flex items-start group">
                   <div className="shrink-0 w-7 h-7 bg-green-400/20 rounded-xl flex items-center justify-center mr-4 group-hover:bg-green-400/30 transition-colors backdrop-blur-sm">
@@ -193,11 +190,10 @@ export default function BenefitsSection() {
                     </svg>
                   </div>
                   <span className="text-white/95 text-base leading-relaxed pt-0.5">
-                    Wygoda online z <strong className="font-semibold text-white">AI asystentem</strong>
+                    Procedura pozbawiona <strong className="font-semibold text-white">emocji</strong>
                   </span>
                 </li>
               </ul>
-            </div>
           </div>
         </div>
       </div>

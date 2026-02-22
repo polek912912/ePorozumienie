@@ -60,7 +60,7 @@ export default function Navigation() {
               <div>
                 <Link
                   href="/login"
-                  className="inline-flex items-center justify-center px-4 py-2 md:px-5 md:py-2 bg-linear-to-br from-[#0A2463] to-[#051740] text-white font-medium rounded-lg text-sm md:text-base transition-all duration-200 hover:shadow-lg hover:shadow-[var(--turquoise)]/20 active:scale-95 border border-[var(--turquoise)]/20"
+                  className="inline-flex items-center justify-center px-4 py-2 text-sm font-normal bg-linear-to-br from-[#0A2463] to-[#051740] text-white rounded-md transition-all duration-200 hover:shadow-lg hover:shadow-[var(--turquoise)]/20 active:scale-95 border border-[var(--turquoise)]/20"
                 >
                   Logowanie
                 </Link>

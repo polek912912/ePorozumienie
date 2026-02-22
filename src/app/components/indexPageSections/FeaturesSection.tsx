@@ -13,7 +13,7 @@ export default function FeaturesSection() {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           {/* Feature 1 */}
-          <div className="group relative bg-white p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-[#0A2463]/20 hover:-translate-y-1">
+          <div className="group relative bg-white p-8 rounded-3xl shadow-xl hover:shadow-3xl transition-all duration-300 border border-gray-100 hover:border-[#0A2463]/20 hover:-translate-y-1">
             <div className="absolute top-4 right-4 px-3 py-1 bg-red-500 text-white text-xs font-semibold rounded-full shadow-lg shadow-red-500/30">Polskie rozwiązanie</div>
             <div className="w-16 h-16 bg-linear-to-br from-[#0A2463] to-[#051740] rounded-2xl flex items-center justify-center mb-6 shadow-lg shadow-[#0A2463]/30 group-hover:scale-110 group-hover:shadow-[var(--turquoise)]/20 transition-all duration-300 relative overflow-hidden">
               <div className="absolute inset-0 bg-linear-to-br from-[var(--turquoise)]/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -23,7 +23,7 @@ export default function FeaturesSection() {
                 </svg>
               </div>
             </div>
-            <h3 className="text-2xl font-bold mb-3 text-gray-900">Dedykowany AI-mediator</h3>
+            <h3 className="text-2xl font-bold mb-3 text-gray-900">Dedykowany<br/>AI-mediator</h3>
             <p className="text-gray-600 leading-relaxed text-base">
               Wykorzystanie dedykowanego modelu językowego przeszkolonego na polskim orzecznictwie i
               dokumentacji mediacyjnej. System identyfikuje pola porozumienia w oparciu o interesy stron,
@@ -32,7 +32,7 @@ export default function FeaturesSection() {
           </div>
 
           {/* Feature 2 */}
-          <div className="group relative bg-white p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-[#0A2463]/20 hover:-translate-y-1">
+          <div className="group relative bg-white p-8 rounded-3xl shadow-xl hover:shadow-3xl transition-all duration-300 border border-gray-100 hover:border-[#0A2463]/20 hover:-translate-y-1">
             <div className="w-16 h-16 bg-linear-to-br from-[#0A2463] to-[#051740] rounded-2xl flex items-center justify-center mb-6 shadow-lg shadow-[#0A2463]/30 group-hover:scale-110 group-hover:shadow-[var(--turquoise)]/20 transition-all duration-300 relative overflow-hidden">
               <div className="absolute inset-0 bg-linear-to-br from-[var(--turquoise)]/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               <div className="relative z-10">
@@ -54,7 +54,7 @@ export default function FeaturesSection() {
           </div>
 
           {/* Feature 3 */}
-          <div className="group relative bg-white p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-[#0A2463]/20 hover:-translate-y-1">
+          <div className="group relative bg-white p-8 rounded-3xl shadow-xl hover:shadow-3xl transition-all duration-300 border border-gray-100 hover:border-[#0A2463]/20 hover:-translate-y-1">
             <div className="w-16 h-16 bg-linear-to-br from-[#0A2463] to-[#051740] rounded-2xl flex items-center justify-center mb-6 shadow-lg shadow-[#0A2463]/30 group-hover:scale-110 group-hover:shadow-[var(--turquoise)]/20 transition-all duration-300 relative overflow-hidden">
               <div className="absolute inset-0 bg-linear-to-br from-[var(--turquoise)]/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               <div className="relative z-10">
@@ -75,7 +75,7 @@ export default function FeaturesSection() {
           </div>
 
           {/* Feature 4 */}
-          <div className="group relative bg-white p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-[#0A2463]/20 hover:-translate-y-1">
+          <div className="group relative bg-white p-8 rounded-3xl shadow-xl hover:shadow-3xl transition-all duration-300 border border-gray-100 hover:border-[#0A2463]/20 hover:-translate-y-1">
             <div className="w-16 h-16 bg-linear-to-br from-[#0A2463] to-[#051740] rounded-2xl flex items-center justify-center mb-6 shadow-lg shadow-[#0A2463]/30 group-hover:scale-110 group-hover:shadow-[var(--turquoise)]/20 transition-all duration-300 relative overflow-hidden">
               <div className="absolute inset-0 bg-linear-to-br from-[var(--turquoise)]/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               <div className="relative z-10">
@@ -98,7 +98,7 @@ export default function FeaturesSection() {
           </div>
 
           {/* Feature 5 */}
-          <div className="group relative bg-white p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-[#0A2463]/20 hover:-translate-y-1">
+          <div className="group relative bg-white p-8 rounded-3xl shadow-xl hover:shadow-3xl transition-all duration-300 border border-gray-100 hover:border-[#0A2463]/20 hover:-translate-y-1">
             <div className="w-16 h-16 bg-linear-to-br from-[#0A2463] to-[#051740] rounded-2xl flex items-center justify-center mb-6 shadow-lg shadow-[#0A2463]/30 group-hover:scale-110 group-hover:shadow-[var(--turquoise)]/20 transition-all duration-300 relative overflow-hidden">
               <div className="absolute inset-0 bg-linear-to-br from-[var(--turquoise)]/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               <div className="relative z-10">
@@ -117,7 +117,7 @@ export default function FeaturesSection() {
           </div>
 
           {/* Feature 6 */}
-          <div className="group relative bg-white p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-[#0A2463]/20 hover:-translate-y-1">
+          <div className="group relative bg-white p-8 rounded-3xl shadow-xl hover:shadow-3xl transition-all duration-300 border border-gray-100 hover:border-[#0A2463]/20 hover:-translate-y-1">
             <div className="w-16 h-16 bg-linear-to-br from-[#0A2463] to-[#051740] rounded-2xl flex items-center justify-center mb-6 shadow-lg shadow-[#0A2463]/30 group-hover:scale-110 group-hover:shadow-[var(--turquoise)]/20 transition-all duration-300 relative overflow-hidden">
               <div className="absolute inset-0 bg-linear-to-br from-[var(--turquoise)]/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               <div className="relative z-10">
@@ -135,10 +135,11 @@ export default function FeaturesSection() {
               </svg>
               </div>
             </div>
-            <h3 className="text-2xl font-bold mb-3 text-gray-900">Rozliczenia -Smart Escrow</h3>
+            <h3 className="text-2xl font-bold mb-3 text-gray-900">Rozliczenia<br/>Smart Escrow</h3>
             <p className="text-gray-600 leading-relaxed text-base">
               Zintegrowany mechanizm rozliczeń warunkowych. System zwalnia środki finansowe lub kody
-              dostępu do dokumentów dopiero po
+              dostępu do dokumentów dopiero po potwierdzeniu przez obie strony realizacji wzajemnych świadczeń wynikających z
+              ugody.
             </p>
           </div>
         </div>

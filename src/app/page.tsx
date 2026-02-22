@@ -18,10 +18,6 @@ import CTASection from './components/indexPageSections/CTASection';
 export default function Home() {
   const popupRef = useRef<PopupModalRef>(null);
 
-  const handleCTAClick = () => {
-    popupRef.current?.open();
-  };
-
   return (
     <>
       <Navigation />
@@ -35,7 +31,7 @@ export default function Home() {
       <FeaturesSection />
       <PricingSection />
       <TeamSection />
-      <CTASection onCTAClick={handleCTAClick} />
+      <CTASection />
       <Footer />
     </div>
     </>

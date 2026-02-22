@@ -9,7 +9,7 @@ export default function SwissFrancSection() {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 items-start max-w-6xl mx-auto">
           <div>
-            <div className="bg-white p-8 md:p-10 rounded-3xl shadow-xl mb-6 border border-gray-100 hover:shadow-2xl transition-all duration-300">
+            <div className="bg-white p-8 md:p-10 rounded-3xl shadow-2xl mb-6 border border-gray-100 hover:shadow-3xl transition-all duration-300">
               <h3 className="text-2xl font-bold mb-6 text-gray-900">Skala problemu</h3>
               <ul className="space-y-4">
                 <li className="flex items-start group">
@@ -27,7 +27,7 @@ export default function SwissFrancSection() {
                     </svg>
                   </div>
                   <span className="text-gray-700 text-base leading-relaxed pt-1">
-                    <strong className="font-semibold text-gray-900">290 000+</strong> aktywnych umów frankowych w Polsce
+                    <strong className="font-semibold text-gray-900">204 100+</strong> aktywnych umów frankowych na koniec 2024 roku
                   </span>
                 </li>
                 <li className="flex items-start group">
@@ -68,7 +68,7 @@ export default function SwissFrancSection() {
                 </li>
               </ul>
             </div>
-            <div className="bg-white p-8 md:p-10 rounded-3xl shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-300">
+            <div className="bg-white p-8 md:p-10 rounded-3xl shadow-2xl border border-gray-100 hover:shadow-3xl transition-all duration-300">
               <h3 className="text-2xl font-bold mb-6 text-gray-900">Nasze rozwiązanie</h3>
               <ul className="space-y-4">
                 <li className="flex items-start group">
@@ -148,7 +148,7 @@ export default function SwissFrancSection() {
               </ul>
             </div>
           </div>
-          <div className="bg-white p-8 md:p-10 rounded-3xl shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-300">
+          <div className="bg-white p-8 md:p-10 rounded-3xl shadow-2xl border border-gray-100 hover:shadow-3xl transition-all duration-300">
             <div className="mb-8">
               <h3 className="text-2xl font-bold mb-6 text-blue-800">Potencjał rynkowy</h3>
               <ul className="space-y-4">
@@ -167,8 +167,7 @@ export default function SwissFrancSection() {
                     </svg>
                   </div>
                   <span className="text-gray-700 text-base leading-relaxed pt-1">
-                    <span className="font-semibold text-gray-900">TAM:</span> &gt;18 mln spraw/rok, wartość
-                    rynku <strong className="font-semibold text-gray-900">&gt;54 mld zł</strong>
+                    <span className="font-semibold text-gray-900">TAM: </span> &gt;2.1 mln spraw rocznie które MS i NIK identyfikują jako ugodowe
                   </span>
                 </li>
                 <li className="flex items-start group">
@@ -186,8 +185,8 @@ export default function SwissFrancSection() {
                     </svg>
                   </div>
                   <span className="text-gray-700 text-base leading-relaxed pt-1">
-                    <span className="font-semibold text-gray-900">SAM:</span> 2,5 mln spraw/rok (
-                    <strong className="font-semibold text-gray-900">&gt;7,5 mld zł</strong>)
+                    <span className="font-semibold text-gray-900">SAM:</span> 1.2 - 1.3 mln spraw (
+                    <strong className="font-semibold text-gray-900">&gt;57%-62% TAM</strong>)
                   </span>
                 </li>
                 <li className="flex items-start group">
@@ -205,8 +204,8 @@ export default function SwissFrancSection() {
                     </svg>
                   </div>
                   <span className="text-gray-700 text-base leading-relaxed pt-1">
-                    <span className="font-semibold text-gray-900">SOM (3 lata):</span> &gt;250 tys. spraw/rok (
-                    <strong className="font-semibold text-gray-900">&lt;250 mln zł</strong>)
+                    <span className="font-semibold text-gray-900">SOM:</span> &gt;24 - 36 tys. spraw (
+                    <strong className="font-semibold text-gray-900">&lt;2-3% SAM | 1% - 1.7% TAM</strong>)
                   </span>
                 </li>
               </ul>
