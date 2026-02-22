@@ -123,7 +123,7 @@ export default function SwissFrancSection() {
                     </svg>
                   </div>
                   <span className="text-gray-700 text-base leading-relaxed pt-1">
-                    Bezpieczny czat z bankiem z szyfrowaniem <strong className="font-semibold text-gray-900">end-to-end</strong>
+                    Bezpieczny czat z bankiem z szyfrowaniem <br/><strong className="font-semibold text-gray-900">end-to-end</strong>
                   </span>
                 </li>
                 <li className="flex items-start group">

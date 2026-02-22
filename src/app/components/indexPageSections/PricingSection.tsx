@@ -15,7 +15,7 @@ export default function PricingSection() {
           <div className="backdrop-blur-sm bg-white/80 p-6 md:p-8 rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-300 border border-[var(--glass-turquoise-border)] hover:border-[var(--turquoise)]/30 hover:-translate-y-1 hover:bg-white/90">
             <div className="text-center mb-6">
               <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-3">Osoby fizyczne</h3>
-              <p className="text-3xl md:text-4xl font-bold text-[var(--turquoise)]">199 <span className="text-xl font-semibold text-gray-600">PLN</span></p>
+              <p className="text-3xl md:text-4xl font-bold text-[var(--turquoise)]">99 <span className="text-xl font-semibold text-gray-600">PLN</span></p>
               <p className="text-gray-500 text-sm mt-1">za sprawę</p>
             </div>
             <ul className="space-y-3 mb-8">
