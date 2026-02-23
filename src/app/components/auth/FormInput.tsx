@@ -23,12 +23,12 @@ export default function FormInput({
 }: FormInputProps) {
     return (
         <div className="form-group">
-          <label htmlFor={id} className="form-label text-base font-semibold text-gray-900 mb-2 block">{label}</label>
+          <label htmlFor={id} className="form-label">{label}</label>
           <input
             type={type}
             id={id}
             name={name}
-            className="form-control w-full px-5 py-4 text-base rounded-2xl border-2 border-gray-200 bg-white transition-all duration-200 focus:border-[#0A2463] focus:ring-4 focus:ring-[#0A2463]/20 outline-none placeholder:text-gray-400"
+            className="form-control w-full rounded-xl border border-gray-200 bg-white transition-all duration-200 focus:border-[#0A2463] focus:ring-2 focus:ring-[#0A2463]/20 outline-none placeholder:text-gray-400"
             placeholder={placeholder}
             value={value}
             onChange={onChange}

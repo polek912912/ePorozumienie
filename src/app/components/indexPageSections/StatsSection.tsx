@@ -15,7 +15,7 @@ export default function StatsSection() {
           </div>
           <div className="group backdrop-blur-sm bg-white/60 p-8 md:p-10 rounded-3xl text-center shadow-xl hover:shadow-3xl transition-all duration-300 border border-[var(--glass-turquoise-border)] hover:border-[var(--turquoise)]/40 hover:-translate-y-1 hover:bg-white/70">
             <h3 className="text-6xl md:text-7xl font-bold text-[#0A2463] mb-3 tracking-tight drop-shadow-sm">1%</h3>
-            <p className="text-gray-700 text-lg leading-relaxed">spraw trafia na drogę mediacji według danych MS i NIK</p>
+            <p className="text-gray-700 text-lg leading-relaxed">spraw rocznie trafia na drogę mediacji według danych MS i NIK</p>
           </div>
           <div className="group backdrop-blur-sm bg-white/60 p-8 md:p-10 rounded-3xl text-center shadow-xl hover:shadow-3xl transition-all duration-300 border border-[var(--glass-turquoise-border)] hover:border-[var(--turquoise)]/40 hover:-translate-y-1 hover:bg-white/70">
             <h3 className="text-6xl md:text-7xl font-bold text-[#0A2463] mb-3 tracking-tight drop-shadow-sm">2,1 mln</h3>

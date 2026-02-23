@@ -157,7 +157,7 @@ export default function BenefitsSection() {
                       ></path>
                     </svg>
                   </div>
-                  <span className="text-white/95 text-base leading-relaxed pt-0.5"><strong className="font-semibold text-white">Integratywna procedura iteracji</strong></span>
+                  <span className="text-white/95 text-base leading-relaxed pt-0.5"><strong className="font-semibold text-white">Interaktywna procedura iteracji</strong></span>
                 </li>
                 <li className="flex items-start group">
                   <div className="shrink-0 w-7 h-7 bg-green-400/20 rounded-xl flex items-center justify-center mr-4 group-hover:bg-green-400/30 transition-colors backdrop-blur-sm">
