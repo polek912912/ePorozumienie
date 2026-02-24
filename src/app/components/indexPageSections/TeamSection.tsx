@@ -57,7 +57,7 @@ export default function TeamSection() {
             <p className="text-blue-700 font-semibold mb-4 text-lg">Prawnik, informatyk</p>
             <p className="text-gray-600 leading-relaxed text-base">
               Prawnik i informatyk. Łączy Specjalista wiedzę prawniczą z umiejętnościami programistycznymi.
-              Na co dzień zajmuje się automatyzacją przedsiębiorstw.
+              Posiada 5-letnie doświadczenie w automatyzacji przedsiębiorstw.
             </p>
           </div>
         </div>
