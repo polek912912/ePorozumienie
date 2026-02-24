@@ -59,7 +59,7 @@ const PopupModal = forwardRef<PopupModalRef>((_, ref) => {
         // Sukces - zamknij popup
         handleClose();
         // Opcjonalnie: pokaż komunikat sukcesu
-        alert('Dziękujemy! Sprawdź swoją skrzynkę email, aby otrzymać kod rabatowy.');
+        alert('Dziękujemy! Damy Ci znać, gdy aplikacja będzie gotowa.');
       } else {
         // Błąd
         alert(data.error || 'Wystąpił błąd podczas zapisywania. Spróbuj ponownie.');

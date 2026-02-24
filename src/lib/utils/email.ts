@@ -48,7 +48,7 @@ export async function sendContactConfirmationEmail(userEmail: string, userName: 
 }
 export async function sendDiscountEmail(data: DiscountFormData): Promise<{ success: boolean; messageId?: string; error?: string }> {
     const adminEmail = process.env.ADMIN_EMAIL || process.env.EMAIL_FROM || 'eporozumienie@gmail.com';
-    const subject = `Nowy zapis na zniżkę 30% - ${data.name}`;
+    const subject = `Nowy zapis na powiadomienie o starcie - ${data.name}`;
     const html = getDiscountEmailTemplate(data);
 
     return sendEmailFromSender({
@@ -57,9 +57,9 @@ export async function sendDiscountEmail(data: DiscountFormData): Promise<{ succe
         html,
     });
 }
-export async function sendDiscountConfirmationEmail(userEmail: string, userName: string, discountCode?: string): Promise<{ success: boolean; messageId?: string; error?: string }> {
-    const subject = 'Twój kod rabatowy 30% - e-Porozumienie';
-    const html = getDiscountConfirmationEmailTemplate(userName, discountCode);
+export async function sendDiscountConfirmationEmail(userEmail: string, userName: string): Promise<{ success: boolean; messageId?: string; error?: string }> {
+    const subject = 'Potwierdzenie zapisu - e-Porozumienie';
+    const html = getDiscountConfirmationEmailTemplate(userName);
 
     return sendEmailFromSender({
         to: userEmail,

@@ -1,10 +1,7 @@
 export default function BenefitsSection() {
   return (
     <section id="korzysci" className="py-8 md:py-12 relative">
-      {/* Background with glass effect and turquoise accents */}
-      <div className="absolute inset-0 bg-slate-200">
-        <div className="absolute inset-0 bg-[var(--glass-turquoise-bg)] opacity-30"></div>
-      </div>
+      <div className="absolute inset-0 bg-[#e2e8f0]" />
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 md:mb-20 text-gray-900 tracking-tight">
@@ -173,7 +170,7 @@ export default function BenefitsSection() {
                       ></path>
                     </svg>
                   </div>
-                  <span className="text-white/95 text-base leading-relaxed pt-0.5">Polubowne rozwiązanie sporu</span>
+                  <span className="text-white/95 text-base leading-relaxed pt-0.5"><strong className="font-semibold text-white">Przedsądowe porozumienie</strong> – polubowne rozwiązanie bez sądu</span>
                 </li>
                 <li className="flex items-start group">
                   <div className="shrink-0 w-7 h-7 bg-green-400/20 rounded-xl flex items-center justify-center mr-4 group-hover:bg-green-400/30 transition-colors backdrop-blur-sm">

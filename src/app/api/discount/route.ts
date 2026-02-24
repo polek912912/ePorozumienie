@@ -46,7 +46,7 @@ export async function POST(request: NextRequest) {
       return internalError('Wystąpił błąd podczas wysyłania wiadomości');
     }
 
-    // Wyślij email z kodem rabatowym do użytkownika
+    // Wyślij email potwierdzający zapis do użytkownika
     const confirmationResult = await sendDiscountConfirmationEmail(email, name);
     if (!confirmationResult.success) {
       console.warn('Failed to send confirmation email:', confirmationResult.error);

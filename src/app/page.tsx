@@ -21,13 +21,13 @@ export default function Home() {
   return (
     <>
       <Navigation />
-      <div className="bg-gray-200">
+      <div className="bg-[#e2e8f0]">
         <PopupModal ref={popupRef} />
         <HeroSection />
       <HowItWorksSection />
       <StatsSection />
       <BenefitsSection />
-      <SwissFrancSection />
+      {/* <SwissFrancSection /> */}
       <FeaturesSection />
       <PricingSection />
       <TeamSection />

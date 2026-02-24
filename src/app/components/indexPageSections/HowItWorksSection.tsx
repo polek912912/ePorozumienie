@@ -1,15 +1,15 @@
 export default function HowItWorksSection() {
   return (
     <section id="jak-to-dziala" className="py-8 md:py-12 relative">
-      {/* Background with glass effect and turquoise accents */}
-      <div className="absolute inset-0 bg-slate-200">
-        <div className="absolute inset-0 bg-[var(--glass-turquoise-bg)] opacity-15"></div>
-      </div>
+      <div className="absolute inset-0 bg-[#e2e8f0]" />
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 md:mb-20 text-gray-900 tracking-tight">
+        <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-gray-900 tracking-tight">
           Jak to <span className="text-[var(--turquoise)] drop-shadow-sm">działa</span>?
         </h2>
+        <p className="text-center text-lg md:text-xl text-gray-600 mb-16 md:mb-20">
+          Wypracuj <strong className="text-[var(--turquoise)]">przedsądowe porozumienie</strong> w 5 krokach.
+        </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 max-w-4xl mx-auto">
           <div className="group backdrop-blur-sm bg-white/70 p-8 md:p-10 rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-300 border border-[var(--glass-turquoise-border)] hover:border-[var(--turquoise)]/30 hover:-translate-y-1 hover:bg-white/80 relative">
             <div className="w-16 h-16 bg-linear-to-br from-[#0A2463] to-[#051740] rounded-2xl flex items-center justify-center text-white font-bold text-2xl mb-6 shadow-lg shadow-[#0A2463]/30 group-hover:scale-110 group-hover:shadow-[var(--turquoise)]/20 transition-all duration-300 relative overflow-hidden">
@@ -53,7 +53,7 @@ export default function HowItWorksSection() {
             </div>
             <h3 className="text-2xl font-bold mb-4 text-gray-900">Zawarcie Ugody</h3>
             <p className="text-gray-600 leading-relaxed text-base">
-              Zawarcie ugody z wykorzystaniem kwalifikowanego podpisu elektronicznego, zgodnie ze
+              Zawarcie <strong>przedsądowego porozumienia</strong> (ugody) z wykorzystaniem kwalifikowanego podpisu elektronicznego, zgodnie ze
               standardami eIDAS 2.0 zapewnia uzyskanie statusu wiążącej umowy
               w oparciu o art. 78¹ KC.
             </p>

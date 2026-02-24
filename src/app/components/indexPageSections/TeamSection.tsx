@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function TeamSection() {
   return (
-    <section id="zespol" className="py-8 md:py-12 bg-slate-200">
+    <section id="zespol" className="py-8 md:py-12 bg-[#e2e8f0]">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 md:mb-20 text-gray-900 tracking-tight">
           Twórcy

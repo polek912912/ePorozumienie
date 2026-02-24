@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function HeroSection() {
   return (
-    <header className="pt-24 md:pt-32 pb-8 md:pb-12 relative overflow-hidden bg-slate-200">
+    <header className="pt-24 md:pt-32 pb-8 md:pb-12 relative overflow-hidden bg-[#e2e8f0]">
 
       {/* Content container with glass backdrop */}
       <div className="relative z-10">

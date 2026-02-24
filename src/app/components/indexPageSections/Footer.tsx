@@ -2,10 +2,7 @@ import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <footer className="relative bg-linear-to-b from-white to-gray-50 text-gray-800 py-8 md:py-12 border-t border-[var(--glass-turquoise-border)]">
-      {/* Subtle glass effect overlay */}
-      <div className="absolute inset-0 bg-[var(--glass-turquoise-bg)] opacity-20 pointer-events-none"></div>
-
+    <footer className="relative bg-[#e2e8f0] text-gray-800 py-8 md:py-12 border-t border-[var(--glass-turquoise-border)]">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-3 md:gap-4 max-w-6xl mx-auto">
           {/* Contact Info */}
@@ -96,14 +93,14 @@ export default function Footer() {
                   Korzyści
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a
                   href="#kredyty-frankowe"
                   className="text-gray-700 hover:text-[var(--turquoise)] transition-all duration-200 text-base inline-block hover:translate-x-1 transform"
                 >
                   Kredyty frankowe
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a
                   href="#cennik"

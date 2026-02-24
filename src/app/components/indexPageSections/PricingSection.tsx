@@ -1,11 +1,7 @@
 export default function PricingSection() {
   return (
     <section id="cennik" className="py-8 md:py-12 relative">
-      {/* Background with glass effect and turquoise accents */}
-      <div className="absolute inset-0 bg-slate-200">
-        <div className="absolute inset-0 bg-[var(--glass-turquoise-bg)] opacity-25"></div>
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_70%,var(--glass-turquoise-accent),transparent_60%),radial-gradient(circle_at_70%_30%,var(--glass-turquoise-accent),transparent_60%)] opacity-20"></div>
-      </div>
+      <div className="absolute inset-0 bg-[#e2e8f0]" />
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 md:mb-20 text-gray-900 tracking-tight">

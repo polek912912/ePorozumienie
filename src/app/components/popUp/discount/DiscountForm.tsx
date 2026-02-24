@@ -10,8 +10,8 @@ const DiscountForm = ({ onSubmit }: DiscountFormProps) => {
   return (
     <>
       <div className="text-center mb-6">
-        <h3 className="text-2xl font-bold text-gray-800 mb-2">Odbierz zniżkę!</h3>
-        <p className="text-gray-600">Zapisz się, aby otrzymać 30% zniżki na pierwszą mediację</p>
+        <h3 className="text-2xl font-bold text-gray-800 mb-2">Bądź na bieżąco</h3>
+        <p className="text-gray-600">Podaj e-mail, jeśli jesteś zainteresowany – damy Ci znać, gdy nasza aplikacja będzie w pełni ukończona i gotowa do użycia.</p>
       </div>
 
       <form onSubmit={onSubmit} className="space-y-4">
@@ -50,7 +50,7 @@ const DiscountForm = ({ onSubmit }: DiscountFormProps) => {
       <footer className="mt-4 text-center text-sm text-gray-500">
         <p>
           Zapisując się, wyrażasz zgodę na przetwarzanie danych osobowych (imię, email) przez
-          e-Porozumienie w celu wysyłki kodów rabatowych.
+          e-Porozumienie w celu informowania o uruchomieniu aplikacji.
         </p>
       </footer>
     </>
