@@ -19,7 +19,7 @@ export default function FeaturesSection() {
                 </svg>
               </div>
             </div>
-            <h3 className="text-2xl font-bold mb-3 text-gray-900">Dedykowany<br/>AI-mediator</h3>
+            <h3 className="text-2xl font-bold mb-3 text-gray-900">Dedykowany bezstronny <br/>mediator AI</h3>
             <p className="text-gray-600 leading-relaxed text-base">
               Wykorzystanie dedykowanego modelu językowego przeszkolonego na polskim orzecznictwie i
               dokumentacji mediacyjnej. System identyfikuje pola porozumienia w oparciu o interesy stron,
