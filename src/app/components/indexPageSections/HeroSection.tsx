@@ -13,13 +13,13 @@ export default function HeroSection() {
                 e-Porozumienie
               </h1>
               <p className="text-lg md:text-xl lg:text-2xl mb-10 md:mb-12 text-white/90 leading-relaxed max-w-3xl mx-auto">
-                Wykorzystaj <strong className="font-semibold text-[var(--turquoise)]">silnik LLM</strong>, by zamienić wielomiesięczne spory w <strong className="font-semibold text-[var(--turquoise)]">wiążącą ugodę</strong> w czasie rzeczywistym.
+                Wykorzystaj naszego <strong className="font-semibold text-[var(--turquoise)]">bezstronnego mediatora AI</strong>, aby zamienić niepewność, wysokie koszty i stracony czas w <strong className="font-semibold text-[var(--turquoise)]">wiążącą ugodę</strong> w czasie rzeczywistym.
               </p>
               <Link
                 href="/login"
                 className="inline-flex items-center justify-center px-4 py-1.5 text-base font-normal text-white bg-[var(--turquoise)] hover:bg-[var(--turquoise)]/90 rounded-md transition-all duration-300 hover:-translate-y-0.5"
               >
-                Wdróż standard e-porozumienia
+                Wdróż e-porozumienie
               </Link>
             </div>
           </div>
