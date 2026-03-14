@@ -63,9 +63,9 @@ export default function FeaturesSection() {
               </svg>
               </div>
             </div>
-            <h3 className="text-2xl font-bold mb-3 text-gray-900">Szyfrowanie<br/>i ISO 27001</h3>
+            <h3 className="text-2xl font-bold mb-3 text-gray-900">Bezpieczeństwo<br/>danych</h3>
             <p className="text-gray-600 leading-relaxed text-base">
-              Bezpieczeństwo danych oparte na standardzie AES-256 (end-to-end). Platforma stosuje strukturę
+              Bezpieczeństwo danych oparte na standardzie szyfrowania danych, ISO 27001 i AES-256 (end-to-end). Platforma stosuje strukturę
               uznanego standardu zarządzania systemami bezpieczeństwa informacji.
             </p>
           </div>
@@ -105,7 +105,7 @@ export default function FeaturesSection() {
               </svg>
               </div>
             </div>
-            <h3 className="text-2xl font-bold mb-3 text-gray-900">Weryfikacja Podmiotowa</h3>
+            <h3 className="text-2xl font-bold mb-3 text-gray-900">Weryfikacja</h3>
             <p className="text-gray-600 leading-relaxed text-base">
               Automatyczna integracja z rejestrami publicznymi. System weryfikuje tożsamość stron oraz
               aktualne umocowanie osób reprezentujących, eliminując ryzyko wad prawnych oświadczeń woli.
@@ -131,10 +131,9 @@ export default function FeaturesSection() {
               </svg>
               </div>
             </div>
-            <h3 className="text-2xl font-bold mb-3 text-gray-900">Rozliczenia<br/>Smart Escrow</h3>
+            <h3 className="text-2xl font-bold mb-3 text-gray-900">Wiarygodne<br/>rozliczenia</h3>
             <p className="text-gray-600 leading-relaxed text-base">
-              Zintegrowany mechanizm rozliczeń warunkowych. System zwalnia środki finansowe lub kody
-              dostępu do dokumentów dopiero po potwierdzeniu przez obie strony realizacji wzajemnych świadczeń wynikających z
+              Zintegrowany mechanizm rozliczeń, działający dopiero po potwierdzeniu przez obie strony realizacji wzajemnych świadczeń wynikających z
               ugody.
             </p>
           </div>
