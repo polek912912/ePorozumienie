@@ -22,7 +22,7 @@ export default function TeamSection() {
             <p className="text-blue-700 font-semibold mb-4 text-lg">Prawnik nowych technologii</p>
             <p className="text-gray-600 leading-relaxed text-base">
               Aplikant radcowski zrzeszony przy OIRP Warszawa. Audytor ISMS.
-              Specjalizuje się w obsłudze rynku kryptoaktywów, rynku płatniczego, AML/CFT, ochronie danych osobowych i prawie gospodarczym
+              Specjalizuje się w obsłudze rynku kryptoaktywów, rynku płatniczego, AML/CFT, ochronie danych osobowych i prawie gospodarczym.
             </p>
           </div>
           <div className="group bg-white p-6 md:p-8 rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-300 text-center border border-gray-100 hover:-translate-y-1">
@@ -38,7 +38,7 @@ export default function TeamSection() {
             <h3 className="text-2xl font-bold mb-2 text-gray-900">Paweł <br />Urzenitzok</h3>
             <p className="text-blue-700 font-semibold mb-4 text-lg">Doktorant</p>
             <p className="text-gray-600 leading-relaxed text-base">
-              Wicemistrz świata w negocjacjach z doświadczeniem w obsłudze globalnych korporacji
+              Wicemistrz Świata i Mistrz Polski w Negocjacjach z doświadczeniem w obsłudze globalnych korporacji
               technologicznych. Doktorant prawa nowoczesnych technologii na ALK. Projektuje algorytmy
               konsensusu w oparciu o światowe standardy mediacji.
             </p>
@@ -56,8 +56,8 @@ export default function TeamSection() {
             <h3 className="text-2xl font-bold mb-2 text-gray-900">Mikołaj <br />Uroda</h3>
             <p className="text-blue-700 font-semibold mb-4 text-lg">Prawnik, informatyk</p>
             <p className="text-gray-600 leading-relaxed text-base">
-              Prawnik i informatyk. Łączy Specjalista wiedzę prawniczą z umiejętnościami programistycznymi.
-              Na co dzień zajmuje się automatyzacją przedsiębiorstw.
+              Prawnik i informatyk. Łączy specllistyczną wiedzę prawniczą z umiejętnościami programistycznymi.
+              Posiada 7+ lat doświadczenia w automatyzacji przedsiębiorstw. W wolnych chwilach biega maratony.
             </p>
           </div>
         </div>
